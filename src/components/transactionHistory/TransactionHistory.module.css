@@ -1,0 +1,32 @@
+.table {
+  margin-top: 30px;
+  width: 600px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: rgb(205, 202, 202);
+  text-align: center;
+}
+
+.thead {
+  color: white;
+  background-color: rgb(35, 35, 35);
+}
+
+.td {
+  padding: 4px;
+  border: 1px solid black;
+  text-transform: capitalize;
+}
+
+.th {
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.tr {
+  &:nth-of-type(odd) {
+    background-color: rgb(255, 254, 254);
+  }
+}

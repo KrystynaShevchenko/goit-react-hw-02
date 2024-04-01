@@ -1,0 +1,74 @@
+.profileCard {
+  display: flex;
+  flex-direction: column;
+
+  width: 276px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.profileBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #fcfbfb;
+}
+
+.profileImg {
+  width: 120px;
+  border-radius: 50%;
+  background-color: rgb(50, 48, 48);
+  margin-bottom: 15px;
+}
+.profileUserName {
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.profileTag {
+  margin-bottom: 2px;
+  color: rgb(134, 134, 134);
+}
+
+.profileLocation {
+  color: rgb(134, 134, 134);
+}
+
+.profileList {
+  display: flex;
+  background-color: rgb(209, 209, 209);
+}
+.profileItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 92px;
+  height: 70px;
+  border-top: 2px solid rgba(128, 125, 125, 0.682);
+}
+
+.profileItem:not(:last-child) {
+  border-right: 2px solid rgba(141, 138, 138, 0.682);
+}
+/* .profileTextFollowers {
+} */
+.profileNumbersFollowers {
+  font-weight: 600;
+}
+/* .profileTextViews {
+} */
+.profileNumbersViews {
+  font-weight: 600;
+}
+/* .profileTextLikes {
+} */
+.profileNumbersLikes {
+  font-weight: 600;
+}
